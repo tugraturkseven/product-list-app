@@ -45,6 +45,7 @@ The app uses the following major dependencies:
 
 ## User Interface
 ![Adsız tasarım](https://github.com/tugraturkseven/product-list-app/assets/28603785/0fc23bda-7eb8-454a-9d3a-596adbb7e336)
+![Adsız tasarım (3)](https://github.com/tugraturkseven/product-list-app/assets/28603785/7c021ca0-be87-46a7-b263-f0c899cdcab9)
 ![Adsız tasarım (1)](https://github.com/tugraturkseven/product-list-app/assets/28603785/8aee392a-1fb9-4ca7-9cd0-c51d6075a548)
 ![Adsız tasarım (2)](https://github.com/tugraturkseven/product-list-app/assets/28603785/a3129805-dc79-4162-bf9c-e2444da9043c)
 
@@ -58,5 +59,3 @@ Contributions to the project are welcome! If you find any bugs or want to add ne
 If you have any questions or suggestions, please feel free to reach out to me at [contact@tugraturkseven.com](mailto:contact@tugraturkseven.com).
 
 ---
-
-Feel free to modify and customize this README file according to your specific application and requirements. Include any additional sections or information that you think would be relevant.
