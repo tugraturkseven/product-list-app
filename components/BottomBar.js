@@ -5,12 +5,12 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import ProductList from "./ProductList";
 import ProductDetail from "./ProductDetail";
 import FavoritesPage from "./FavoritesPage";
-
+import AddItem from "./AddItem";
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
-const AlbumsRoute = () => <Text>Albums</Text>;
+
 
 const BottomBar = () => {
     return (
@@ -27,8 +27,8 @@ const BottomBar = () => {
             />
 
             <Tab.Screen
-                name="Settings"
-                component={AlbumsRoute}
+                name="Add Product"
+                component={AddItem}
                 options={{
                     tabBarLabel: "Add",
                     tabBarIcon: ({ color, size }) => (
