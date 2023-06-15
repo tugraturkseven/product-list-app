@@ -4,6 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import ProductList from "./ProductList";
 import ProductDetail from "./ProductDetail";
+import FavoritesPage from "./FavoritesPage";
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -40,7 +42,7 @@ const BottomBar = () => {
             />
             <Tab.Screen
                 name="Favorites"
-                component={AlbumsRoute}
+                component={FavoritesPage}
                 options={{
                     tabBarLabel: "Favorites",
                     tabBarIcon: ({ color, size }) => (

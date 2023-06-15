@@ -7,6 +7,8 @@ import { Col, Row, Grid } from "react-native-paper-grid";
 
 const ProductDetail = (props) => {
     const navigation = useNavigation();
+
+
     const [fetchDetail, setFetchDetail] = useState(null);
 
     const handleGoBack = () => {
